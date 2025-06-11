@@ -13,7 +13,7 @@ function App() {
       <Route path="/sign-up/*" element={<AuthenticationPage/>}></Route>
       <Route element={<Layout />}>
         <Route path="/" element={<ChallengeGenerator/>}/>
-        <Route path="/" element={<HistoryPanel/>}/>
+        <Route path="/history" element={<HistoryPanel/>}/>
 
       </Route>
     </Routes>
